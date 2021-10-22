@@ -1,9 +1,9 @@
 :root {
-  --primary-color: #fff;
-  --secondary-color: #fff;
+  --primary-color: #ff7d1b;
+  --secondary-color: #ff7e1bb4;
 
-  --text-color: #000;
-  --heading-color: #000;
+  --text-color: #767980;
+  --heading-color: #1f2022;
 }
 
 *,
@@ -24,4 +24,20 @@ body {
   width: 100%;
   font-size: 1.6rem;
   font-family: "Kumbh Sans", sans-serif;
+  color: var(--text-color);
+}
+
+/*Typography*/
+
+h1,
+h2 {
+  color: var(--heading-color);
+}
+
+h1 {
+  margin-bottom: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
 }
