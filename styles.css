@@ -35,9 +35,25 @@ h2 {
 }
 
 h1 {
+  font-size: 5rem;
   margin-bottom: 2.5rem;
 }
 
 h2 {
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 4rem;
+  }
+
+  body {
+    font-size: 2.5rem;
+  }
 }
