@@ -1,6 +1,6 @@
 :root {
   --primary-color: #ff7d1b;
-  --secondary-color: #ff7e1b4a;
+  --secondary-color: #ff7e1bb4;
 
   --text-color: #767980;
   --heading-color: #1f2022;
@@ -60,8 +60,18 @@ h2 {
 
 /* Images */
 
-.img--btn {
+.icon--btn {
   margin-right: 20px;
+  fill: #fff;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+}
+
+.icon--primary {
+  fill: var(--primary-color);
 }
 
 /* Badges */
@@ -91,6 +101,10 @@ h2 {
   color: #fff;
 }
 
+.btn--primary:hover {
+  background-color: var(--secondary-color);
+}
+
 .btn--group {
   display: flex;
   align-items: center;
@@ -116,6 +130,6 @@ h2 {
   }
 
   .btn--long {
-    padding: 2rem 4.5rem;
+    padding: 2.3rem 4.5rem;
   }
 }
