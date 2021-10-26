@@ -66,8 +66,8 @@ h2 {
 }
 
 .icon {
-  height: 20px;
-  width: 20px;
+  height: 13px;
+  width: 13px;
 }
 
 .icon--primary {
@@ -105,13 +105,17 @@ h2 {
   background-color: var(--secondary-color);
 }
 
+.btn:hover .icon--primary{
+  fill: var(--secondary-color);
+}
+
 .btn--group {
   display: flex;
   align-items: center;
 }
 
 .btn--small {
-  padding: 1rem;
+  padding: 1.4rem 1.2rem;
   color: var(--primary-color);
 }
 
